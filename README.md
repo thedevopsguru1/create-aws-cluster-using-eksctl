@@ -1,5 +1,9 @@
 # create-aws-cluster-using-eksctl
 ```
+ eksctl create cluster --name test-anael --region us-east-2 --nodegroup-name eboo-nodes --node-type t2.micro --nodes 3 --alb-ingress-access --ssh-public-key anael1 --external-dns-access --ssh-access --node-private-networking
+````
+### HERE IS THE DESCRIPTION
+```
 eksctl create cluster --name clustername --region regionhere --nodegroup-name namehere --node-type typehere --node numberofnodes --alb-ingress-access --ssh-public-key keynamehere --external-dns-access --ssh-access
 ```
 ### Here is an example
