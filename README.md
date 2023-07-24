@@ -27,6 +27,7 @@ eksctl delete cluster --name clusternamehere
 eksctl delete cluster --name test-anael
 ```
 # Add EFS Volume
+### Follow This : https://github.com/thedevopsguru1/add-EFS-to-eks/blob/main/README.md
 #### Create EFS volume
 #### Follow this guide to add efs to kubernetes cluster
 ##### use Git bash to run the command
