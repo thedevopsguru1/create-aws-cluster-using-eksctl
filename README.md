@@ -28,9 +28,5 @@ eksctl delete cluster --name test-anael
 ```
 # Add EFS Volume
 ### Follow This : https://github.com/thedevopsguru1/add-EFS-to-eks/blob/main/README.md
-#### Create EFS volume
-#### Follow this guide to add efs to kubernetes cluster
-##### use Git bash to run the command
-https://repost.aws/knowledge-center/eks-persistent-storage
-##### Add provisioner
-https://github.com/thedevopsguru1/dynamic-nfs-provisioing
+# Test application
+https://github.com/thedevopsguru1/project1
