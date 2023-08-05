@@ -13,7 +13,7 @@ eksctl create cluster --name test-anael --region us-east-2 --nodegroup-name eboo
 ```
 ### Here is an example for private
 ```
-eksctl create cluster --name test-anael --region us-east-2 --nodegroup-name eboo-nodes --node-type t2.xlarge --nodes 3 --alb-ingress-access --ssh-public-key anael1 --external-dns-access --ssh-access --node-private-networking --with-oidc --full-ecr-access
+eksctl create cluster --name test-anael --region us-east-2 --nodegroup-name eboo-nodes --node-type t2.xlarge --nodes 3 --alb-ingress-access --ssh-public-key anael1 --external-dns-access --ssh-access --node-private-networking --with-oidc --full-ecr-access --managed
 ```
 ### for more options, add the flag --help at the end of the commands
 _________________________________________________________
